@@ -1,0 +1,64 @@
+/*- de 300px:*/
+
+@media only screen and (min-width: 300px){
+
+	body{
+		background-color: red;
+	}
+
+	.small{
+		color: white;
+	}
+
+	.medium{
+		display: none;
+	}
+
+	.large{
+		display: none;
+	}
+
+}
+
+
+@media only screen and (min-width: 768px){
+
+	body{
+		background-color: green;
+	}
+
+	.medium{
+		color: white;
+	}
+
+	.small{
+		display: none;
+	}
+
+	.large{
+		display:none;
+	}
+
+
+}
+
+@media only screen and (min-width: 1260px){
+
+	body{
+		background-color: blue
+	}
+
+	.large{
+		color:white;
+	}
+
+	.small{
+		display: none;
+	}
+
+	.medium{
+
+		display: none;
+	}
+
+}
