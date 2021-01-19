@@ -1,19 +1,21 @@
 /*- de 300px:*/
-body{
-	background-color: red;
+@media only screen and (min-width: 0px){
+	body{
+		background-color: red;
 
-}
+	}
 
-.small{
-	color: white;
-}
+	.small{
+		color: white;
+	}
 
-.medium{
-	display: none;
-}
+	.medium{
+		display: none;
+	}
 
-.large{
-	display:none;
+	.large{
+		display:none;
+	}
 }
 /*------------------*/
 @media only screen and (min-width: 300px){
