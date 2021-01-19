@@ -8,7 +8,7 @@
 
 body{
 
-	box-sizing: border-box; 
+	box-sizing: border-box; /*organise les div*/ 
 }
 
 @media (min-width: 300px) and (max-width: 768px){
