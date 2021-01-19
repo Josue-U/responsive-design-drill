@@ -1,16 +1,33 @@
 /*- de 300px:*/
+body{
+	background-color: red;
 
+}
+
+.small{
+	color: white;
+}
+
+.medium{
+	display: none;
+}
+
+.large{
+	display:none;
+}
+/*------------------*/
 @media only screen and (min-width: 300px){
 
 	body{
-		background-color: red;
-	}
-
-	.small{
-		color: white;
+		background-color: green;
 	}
 
 	.medium{
+
+		color: orange;
+	}
+
+	.small{
 		display: none;
 	}
 
@@ -24,41 +41,21 @@
 @media only screen and (min-width: 768px){
 
 	body{
-		background-color: green;
+		background-color: blue;
 	}
 
-	.medium{
-		color: white;
+	.large{
+
+		color: gray;
 	}
 
 	.small{
 		display: none;
 	}
 
-	.large{
+	.medium{
 		display:none;
 	}
 
-
-}
-
-@media only screen and (min-width: 1260px){
-
-	body{
-		background-color: blue
-	}
-
-	.large{
-		color:white;
-	}
-
-	.small{
-		display: none;
-	}
-
-	.medium{
-
-		display: none;
-	}
 
 }
