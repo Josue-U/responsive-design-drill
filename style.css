@@ -1,7 +1,54 @@
-h1{
-	/*color: white;*/
-	text-align: center;
-	font-weight: bold;
-	font-size: 28px
+@media (max-width: 300px){
+
+	body{
+		background-color: red;
+		font-family: 'Calibri',sans-serif;
+	}
+}
+
+body{
+
+	box-sizing: border-box; 
+}
+
+@media (min-width: 300px) and (max-width: 768px){
+
+	body{
+		background-color: green;
+		font-family: "Arial",sans-serif;
+	}
+
+	.small{
+
+		width: 66%;
+		float: left;
+	}
+
+	.medium{
+
+		width:33%;
+		float: left;
+	}
+
+	.large{
+
+		width: 100%;
+
+	}
+
+
+}
+
+@media (min-width: 768px) {
+
+	body{
+		background-color:blue;
+		font-family: 'Comic-sans',sans-serif;
+	}
+
+	.small, .medium, .large{
+		width: 33%;
+		float: left;
+	}
 }
 
